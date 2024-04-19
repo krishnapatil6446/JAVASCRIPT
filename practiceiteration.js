@@ -10,5 +10,15 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userbooks = books.filter( (bk)=> { return genre===Fiction} )
-  console.log(userbooks);
+  // let userbooks = books.filter( (bk)=> { return genre===Fiction} )
+  // console.log(userbooks);
+  
+  for (let key in books) {
+    console.log(key + ": " + books[key]);
+}
+
+  // const myNumbs = [1,2,3,4,5,6,7,8,9,10]
+  // const newNumbs = myNumbs.filter( (num)=>{
+  //   return num>=4
+  // } )
+  // console.log(newNumbs)
